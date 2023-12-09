@@ -9,5 +9,6 @@ In our project we use this to transfer our code to Arduino board to act like tha
 let’s talk about some importants part of our Arduino board
 
 1. microcontroller
+   
 Arduino microcontroller are pre programmed with a bootloader that simplies the uploadingof programs to the on-chip flash memory.thedefault bootloader of the Arduino uno is the optiboot bootloader.boards are loader with program code via a serial connection to another computer.
 

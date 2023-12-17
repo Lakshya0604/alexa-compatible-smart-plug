@@ -9,6 +9,7 @@ In this , I will talk about what’s on the Arduino UNO board and what it can do
 
 
 The major components of Arduino UNO board are as follows:
+
 •	USB connector
 •	Power port
 •	Microcontroller
@@ -76,21 +77,21 @@ Four-Channel Relay Module Pinout
 
 Pin Number,	Pin Name	, Description
 
-(1           	GND       Ground reference for the module)
+(1           	GND    ,   Ground reference for the module)
 
-(2          	 IN1	      Input to activate relay 1)
+(2     ,    	 IN1	    ,  Input to activate relay 1)
 
-(3	           IN2      	Input to activate relay 2)
+(3	     ,     IN2      ,	  Input to activate relay 2)
 
-(4	           IN3	      Input to activate relay 3)
+(4	     ,     IN3	     ,  Input to activate relay 3)
 
-(5	           IN4	      Input to activate relay 4)
+(5	     ,     IN4	     ,  Input to activate relay 4)
 
-(6          	 VCC	      Power supply for the relay module)
+(6      ,    	 VCC	    ,  Power supply for the relay module)
 
-(7         	 VCC	      Power supply selection jumper)
+(7      ,  	 VCC	     ,  Power supply selection jumper)
 
-(8	          JD-Vcc     Alternate power pin for the relay module)
+(8	     ,     JD-Vcc   ,   Alternate power pin for the relay module)
 
 
 Components Present on A Four-Channel Relay Module
@@ -99,14 +100,23 @@ Following are the major components present on the four-channel relay module, we 
 5V relay, terminal blocks, male headers, transistors, optocouplers, diodes, and LEDs.
  
 Four-Channel Relay Module Specifications
+
 •	Supply voltage – 3.75V to 6V
+
 •	Trigger current – 5mA
+
 •	Current when the relay is active - ~70mA (single), ~300mA (all four)
+
 •	Relay maximum contact voltage – 250VAC, 30VDC
+
 •	Relay maximum current – 10A
+
 •	Alternate Relay Modules
-•	Single-channel relay module, dual-channel relay module, eight-channel relay module.
+
+•	Single-channel relay module, dual-channel relay module, eight-channel relay module
+
 •	Alternate Modules
+
 •	SCRs, TRIACs, Solid State Relay module.
 
 •	The four-channel relay module contains four 5V relays and the associated switching and isolating components, which makes interfacing with a microcontroller or sensor easy with minimum components and connections. There are two terminal blocks with six terminals each, and each block is shared by two relays. The terminals are screw type, which makes connections to mains wiring easy and changeable.

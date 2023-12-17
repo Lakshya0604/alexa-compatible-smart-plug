@@ -68,6 +68,46 @@ TX – RX indicator
 TX stands for transmit, and RX for receive. These are indicator LEDs which blink whenever the UNO board is transmitting or receiving data.
 Now that you have explored the Arduino UNO board, you have started your journey toward building your first IoT prototype.
 
+2 . The four-channel relay module
+
+It contains four 5V relays and the associated switching and isolating components, which makes interfacing with a microcontroller or sensor easy with minimum components and connections. The contacts on each relay are specified for 250V AC and 30v DC and 10A in each case, as marked on the body of the relays.
+
+Four-Channel Relay Module Pinout
+
+Pin Number	Pin Name	 Description
+
+1           	GND       Ground reference for the module
+2          	 IN1	      Input to activate relay 1
+3	           IN2      	Input to activate relay 2
+4	           IN3	      Input to activate relay 3
+5	           IN4	      Input to activate relay 4
+6          	 VCC	      Power supply for the relay module
+7         	 VCC	      Power supply selection jumper
+8	          JD-Vcc     Alternate power pin for the relay module
+
+Components Present on A Four-Channel Relay Module
+
+Following are the major components present on the four-channel relay module, we will get into the details of this later in the article.
+5V relay, terminal blocks, male headers, transistors, optocouplers, diodes, and LEDs.
+ 
+Four-Channel Relay Module Specifications
+•	Supply voltage – 3.75V to 6V
+•	Trigger current – 5mA
+•	Current when the relay is active - ~70mA (single), ~300mA (all four)
+•	Relay maximum contact voltage – 250VAC, 30VDC
+•	Relay maximum current – 10A
+•	Alternate Relay Modules
+•	Single-channel relay module, dual-channel relay module, eight-channel relay module.
+•	Alternate Modules
+•	SCRs, TRIACs, Solid State Relay module.
+
+•	The four-channel relay module contains four 5V relays and the associated switching and isolating components, which makes interfacing with a microcontroller or sensor easy with minimum components and connections. There are two terminal blocks with six terminals each, and each block is shared by two relays. The terminals are screw type, which makes connections to mains wiring easy and changeable.
+
+•	The four relays on the module are rated for 5V, which means the relay is activated when there is approximately 5V across the coil. The contacts on each relay are specified for 250VAC and 30VDC and 10A in each case, as marked on the body of the relays.
+
+•	The switching transistors act as a buffer between the relay coils that require high currents, and the inputs which don’t draw much current. They amplify the input signal so that they can drive the coils to activate the relays. The freewheeling diodes prevent voltage spikes across the transistors when the relay is turned off since the coils are an inductive load. The indicator LEDs glow when the coil of the respective relay is energized, indicating that the relay is active. The optocouplers form an additional layer of isolation between the load being switched and the inputs. The isolation is optional and can be selected using the VCC selector jumper. The input jumper contains the main V¬CC, GND, and input pins for easy connection using female jumper wires.
+
+
 
 
 

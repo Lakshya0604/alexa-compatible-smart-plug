@@ -1,11 +1,11 @@
 # alexa-compatible-smart-plug
-Instrument required for making smart plug
+(Instrument required for making smart plug)
 
 Arduino board
 
 
 Arduino is a microcontroller-based open source electronic prototyping board which can be programmed with an easy-to-use Arduino IDE.
-In this article, I will talk about what’s on the Arduino UNO board and what it can do. UNO is not the only board in the Arduino family. There are other boards like Arduino Lilypad, Arduino Mini, Arduino Mega, and Arduino Nano. However, the Arduino UNO board became more popular than other boards in the family because it has documentation that is much more detailed. This led to its increased adoption for electronic prototyping, creating a vast community of electronic geeks and hobbyists.
+In this , I will talk about what’s on the Arduino UNO board and what it can do. UNO is not the only board in the Arduino family. There are other boards like Arduino Lilypad, Arduino Mini, Arduino Mega, and Arduino Nano. However, the Arduino UNO board became more popular than other boards in the family because it has documentation that is much more detailed. This led to its increased adoption for electronic prototyping, creating a vast community of electronic geeks and hobbyists.
 
 
 The major components of Arduino UNO board are as follows:
@@ -66,7 +66,8 @@ Think of this as a signal translator. It converts signals in the USB level to a 
 TX – RX indicator
 
 TX stands for transmit, and RX for receive. These are indicator LEDs which blink whenever the UNO board is transmitting or receiving data.
-Now that you have explored the Arduino UNO board, you have started your journey toward building your first IoT prototype. In the next article, we will discuss Arduino programming and do a few experiments with Arduino and LEDs.
+Now that you have explored the Arduino UNO board, you have started your journey toward building your first IoT prototype.
+
 
 
 

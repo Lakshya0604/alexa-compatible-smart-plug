@@ -11,13 +11,21 @@ In this , I will talk about what’s on the Arduino UNO board and what it can do
 The major components of Arduino UNO board are as follows:
 
 •	USB connector
+
 •	Power port
+
 •	Microcontroller
+
 •	Analog input pins
+
 •	Digital pins
+
 •	Reset switch
+
 •	Crystal oscillator
+
 •	USB interface chip
+
 •	TX RX LEDs
 
 

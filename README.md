@@ -74,16 +74,24 @@ It contains four 5V relays and the associated switching and isolating components
 
 Four-Channel Relay Module Pinout
 
-Pin Number	Pin Name	 Description
+Pin Number,	Pin Name	, Description
 
-1           	GND       Ground reference for the module
-2          	 IN1	      Input to activate relay 1
-3	           IN2      	Input to activate relay 2
-4	           IN3	      Input to activate relay 3
-5	           IN4	      Input to activate relay 4
-6          	 VCC	      Power supply for the relay module
-7         	 VCC	      Power supply selection jumper
-8	          JD-Vcc     Alternate power pin for the relay module
+(1           	GND       Ground reference for the module)
+
+(2          	 IN1	      Input to activate relay 1)
+
+(3	           IN2      	Input to activate relay 2)
+
+(4	           IN3	      Input to activate relay 3)
+
+(5	           IN4	      Input to activate relay 4)
+
+(6          	 VCC	      Power supply for the relay module)
+
+(7         	 VCC	      Power supply selection jumper)
+
+(8	          JD-Vcc     Alternate power pin for the relay module)
+
 
 Components Present on A Four-Channel Relay Module
 

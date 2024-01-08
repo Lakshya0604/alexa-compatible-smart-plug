@@ -1,0 +1,11 @@
+While connecting are board with are system we face some problem 
+1.	 first We know are board, I use Arduino compatible based esp2866
+2.	Know your ide to upload code I use Arduino ide to upload my code 
+3.	In Arduino you have to  change some settings according to your board. First chose the board my board is not there so I go to tools<board<board manager<then in search box type esp8266 < and install it.
+4.	Then go to file < preferences<in url paste this http://arduino.esp8266.com/stable/package_esp8266com_index.json
+5.	In tools change upload speed to 115200.i change board to lolin wemos d1 r1 and change port
+6.	First go to device manager and go to port and which port it show then change the port in Arduino com port.
+7.	Then upload code and check it.
+8.	If you see this error a( fatal esptool.py error occurred: cannot configure port, something went wrong. original message: permissionerror) then install a drive from this link https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all and download exe version .
+9.	Then go to file < example<digital<blink then upload your program then your board start blinking it means your program is uploading then it stop after that it start blinking according to the program.
+10.	So ,it work properly then your board is ready to do your project now you can uploud any program.
